@@ -1,0 +1,20 @@
+.board{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: auto;
+    gap: 10px;
+    max-width: 400px;
+}
+.board .cell{
+    background-color: #73a9a9;
+    padding: 50px;
+    cursor: pointer;
+    border: none;
+    color: #fff;
+    /* font-size: 40px; */
+    /* font-weight: bold; */
+}
+.board .cell:focus{
+    box-shadow: 8px 8px 8px #888888;
+}

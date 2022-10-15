@@ -1,0 +1,12 @@
+.header{
+    border: 1px solid #000;
+    max-width: 250px;
+    margin: 50px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+.header span{
+    
+}
